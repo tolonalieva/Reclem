@@ -76,6 +76,7 @@ li{
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+    display: inline-block;
 }
 .con-icon{
     margin-left: 10px;
@@ -86,7 +87,7 @@ li{
     background: url(../img/interactive.png)  no-repeat 50% 100% #F2F2F2 cover;
     margin-bottom: 140px;
 }
-.main-title{
+.title{
     font-size: 36px;
     font-weight: 600;
 }
@@ -106,14 +107,15 @@ li{
 .line-text{
     background: url(../img/line-text.png) repeat-x 0 100%; 
 }
+.line-dark{
+    background: url(../img/line-dark.png) repeat-x 0 100%; 
+}
 .branding{
     padding-bottom: 70px;
     border-bottom: 2px solid #F2F2F2;
     margin-bottom: 100px;
 }
 .branding-title{
-    font-size: 36px;
-    font-weight: 600;
     margin-bottom: 44px;
 }
 
@@ -139,6 +141,9 @@ li{
 }
 .branding-img{
     max-width: 480px;
+}
+.advantage-block{
+    margin-bottom: 160px;
 }
 .advantage-col{
     width: 192px;
@@ -171,4 +176,28 @@ li{
 }
 .advantage-col p{
     color: #B3B3B3;
+}
+.constructor-green{
+    position: relative;
+    max-width: 907px;
+    margin: 0 0 0 auto;
+    background: #10BB87 url(../img/pattern.png) 100% 50% no-repeat;
+    border-radius: 28px 0 0 0;
+    padding: 50px 0 50px 11% ;
+}
+.constructor-img{
+    position: absolute;
+    left: -43%;
+    bottom: -47%;
+}
+.constructor-info{
+    max-width: 352px;
+}
+.constructor-info h2{
+    color: #fff;
+    margin-bottom: 44px;
+}
+.constructor-info p{
+    color: #487B6C;
+    margin-bottom: 28px;
 }
